@@ -1,0 +1,8 @@
+.book{
+    background-color:  lightblue;
+    padding: 2px;
+    margin: 2px;
+}
+.book h1{
+    padding-left: 10px;
+}

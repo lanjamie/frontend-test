@@ -7,4 +7,12 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'books';
+
+  // name:string='';
+
+  // saveName(name:string){
+  //   this.name = name;
+  //   console.log(this.name + ': from app component')
+  // }
+  
 }

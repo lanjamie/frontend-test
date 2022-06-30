@@ -1,0 +1,12 @@
+.heading{
+    background-color: cadetblue;
+    padding-left: 20px;
+}
+
+.navbar a {
+    padding: 10px;
+    margin: 5px;
+    background-color: #99F;
+    text-decoration: none;
+    
+}

@@ -1,0 +1,7 @@
+
+
+<app-welcome (nameEvent)="saveName($event)" ></app-welcome>
+
+<app-search *ngIf="name" [name]="name"></app-search>
+
+

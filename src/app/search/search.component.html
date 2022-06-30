@@ -1,0 +1,17 @@
+
+<div class="container">
+
+    <h1>hello {{name}}</h1>
+    
+    <input type="text" [(ngModel)]="query" placeholder="type a book name">
+    <button (click)="getBook()">Submit</button>
+    <br>
+    <br>
+    <div class="book" (click)="selectBook(book)" *ngFor="let book of books">    
+        
+        <h1>{{book.volumeInfo.title}}</h1>
+
+        <app-details *ngIf="selectedBookId==book.id" [details] = "details"></app-details>
+    </div>
+</div>
+    

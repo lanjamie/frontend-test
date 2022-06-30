@@ -1,0 +1,17 @@
+<div class="container">
+
+  <p>welcome to the google books library <br>
+    frontend home assignment
+  </p>
+  <form>
+    <label for="username">Username:</label>
+    <input type="text" name="username" [(ngModel)]="name" required/>
+    <div *ngIf="name.length<1">
+      <h1>please type a name</h1>
+    </div>
+    <div *ngIf="name.length>0">
+      <button type="submit" (click)="onSubmit()">Submit</button>
+    </div>
+  </form>
+</div>
+
